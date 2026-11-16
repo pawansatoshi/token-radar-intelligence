@@ -1,0 +1,23 @@
+# Local run output and dependencies
+/out/
+/output/
+/dist/
+/node_modules/
+
+# Local credentials and private key material
+.env
+.env.*
+!.env.example
+wallet.json
+wallet-*.json
+makefun-keypair.json
+*.pem
+*.p12
+*.pfx
+
+# Local session exports and temporary files
+/transcripts/
+/transcripts*.tar.gz
+*.tmp
+*.temp
+.DS_Store
